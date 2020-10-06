@@ -1,0 +1,25 @@
+
+{% extends 'base.html' %}
+{% load static %}
+
+{% block main %}
+
+  <div id="bloco1" class="col-md-7">
+    <div id="texto-principal">
+      {% for txtSite in TextosDoSite %}
+      {{     txtSite.texto_principal }}
+      {% endfor %}
+    </div>
+
+  </div>
+
+  <div id="bloco2" class="col-md-5">
+    <div>
+      <img id = "img-contador"  src= {% static 'css/img/contador.png' %} />
+    </div>
+  </div>
+
+
+
+
+{% endblock %}

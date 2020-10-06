@@ -1,0 +1,182 @@
+body {
+   /** width: 60%; **/
+    width: 100%;                       /** largura **/
+    height:100%;
+    margin: 0px; 
+    background: url(img/cadu.png) center;
+    font-family: sans-serif;
+    background-color: #F5F5F5; 
+}
+
+header#cabecalho{
+
+    /**background-color: rgba(255,255,255);           /** cor de fundo **/
+    width: 100%;                       /** largura **/
+    background-color:white;                     /** cor de fundo **/
+    height: 50px;
+    min-height: 210px;
+}
+
+/** LOGOMARCA **/
+
+div#logo_cabecalho img#icone{
+
+    width: 100%;                       /** largura **/
+    min-height: 180px;
+    height: 50px;
+    border: 2px solid #DAA520;            /** borda e cor da borda **/
+    border-radius: 10px 10px 10px 10px;  /** arredondamento da borda **/
+  
+}
+
+/** LOGOMARCA2-celular **/
+
+div#logo_cabecalho2 img#icone2{
+    width: 100%;                       /** largura **/
+    min-height: 150px;
+    height: 40px;
+    border: 1px solid white;            /** borda e cor da borda **/
+    border-radius: 0px 0px 0px 0px;  /** arredondamento da borda **/
+
+}
+
+
+.menu{
+
+    margin-left: 250px;
+    width: 100%;                       /** largura **/
+    height: 33px;
+    /** background-color: white; **/
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+
+
+}
+
+.menu ul li{
+    list-style: none;
+    width: 200px;
+    float: left;
+
+}
+
+.menu a{
+
+    padding: 2px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #808080;
+    border-right:0px solid #DAA520;
+    border-left:0px solid #DAA520;
+
+
+}
+
+
+.menu a:hover{
+    color:#DAA520 ;
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    border: 0px solid #DCDCDC;        /** borda e cor da borda **/
+    border-radius: 2px 0px 2px 0px;  /** arredondamento da borda **/
+
+}
+
+
+div#bloco1{
+    margin-top: 220px;
+    width: 100%;                       /** largura **/
+    min-height: 320px;
+    height: 50px;
+    border: 0px solid #DAA520;            /** borda e cor da borda **/
+    border-radius: 0px 0px 0px 0px;  /** arredondamento da borda **/
+
+}
+
+
+div#bloco2{
+    margin-top: 230px;
+    width: 100%;                       /** largura **/
+    min-height: 320px;
+    height: 50px;
+    border: 0px solid #DAA520;            /** borda e cor da borda **/
+    border-radius: 3px 3px 3px 3px;  /** arredondamento da borda **/
+
+}
+
+
+#img-contador{
+
+    width: 510px;
+    height: 320px;
+
+}
+
+#texto-principal{
+
+    font-size: 30px;
+
+}
+
+footer{
+    height: 100%px ;                    /** altura do bloco **/
+    width: 100%px;                       /** largura **/
+    text-align: center;
+    padding: 60px 0px 30px 0px;   /*  acima    50px  padding  */
+                                /*  direita  0px  padding  */
+                                /*  abaixo   00px padding  */
+                                /*  esquerda 30px  padding  */
+}
+
+
+
+
+
+
+
+
+/**========================== MEDIA SCREEN ==============================**/ 
+
+
+
+@media screen and (max-width: 767px) {
+
+
+    
+
+}
+
+#site-inoperante{
+
+    text-align:center;
+
+}
+
+.aviso-administrador{
+    background-color: yellow;         /** cor de fundo **/
+}
+
+.aviso-administrador h4#site-lib{
+    background-color: green;         /** cor de fundo **/
+}
+
+.aviso-administrador h4#site-blo{
+    background-color: red;         /** cor de fundo **/
+}
+
+footer{
+    height: 100%px ;                    /** altura do bloco **/
+    width: 100%px;                       /** largura **/
+    text-align: center;
+
+
+}
+img#logo_cactos{
+    text-align: center; 
+    height: 30px;
+    min-height: 60px;
+    width: 130px;                       /** largura **/
+
+}
